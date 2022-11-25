@@ -10,3 +10,91 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: cadetblue;
+}
+
+.text-center{
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 7.5rem;
+}
+
+input{
+    background-color: #8484BD !important;
+    color: black;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 4px 4px 0px;
+    z-index: 9;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    font-size: 24px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    text-align: center;
+}
+
+.task-name{
+    border: 1px solid black;
+    width: 17%;
+    margin-left: 40.7%;
+    margin-top: 1%;
+    background-color: bisque !important;
+    border-radius: 3%;
+    box-shadow: rgb(0 0 0 / 30%) 3px 4px 4px 0px;
+    z-index: 9;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    overflow-y: overlay;
+    font-size: 25px;
+}
+
+.delete-button{
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 66%;
+    margin-left: 15%;
+}
+
+.delete-button:hover{
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 1290px){ 
+    .task-name{
+        width: 21%;
+        margin-left: 38.7%;
+    }
+}
+
+ @media (max-width: 768px){ 
+    .task-name{
+        width: 41%;
+        margin-left: 27.7%;
+        margin-top: 2%;
+    }
+ }
+
+ @media (max-width: 460px){ 
+    .text-center {
+        margin-top: 30%;
+    }
+
+    .task-name {
+        width: 75%;
+        margin-left: 10.7%;
+        margin-top: 5%;
+    }
+ }     
