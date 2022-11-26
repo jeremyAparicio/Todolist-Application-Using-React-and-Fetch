@@ -55,7 +55,7 @@ input{
     border-style: solid;
     border-color: rgb(187, 187, 187);
     overflow-y: overlay;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .delete-button{
@@ -70,6 +70,10 @@ input{
 .delete-button:hover{
     background-color: red;
     color: white;
+}
+
+.conteo-tareas{
+    margin-top: 1%;
 }
 
 @media (max-width: 1290px){ 
